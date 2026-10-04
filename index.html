@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Satisfaction Survey / Dodoso la Uridhishwaji wa Wateja</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        /* Hero Banner / Header Image Area */
+        .hero {
+            position: relative;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://share.google/92w20wSIQ0IxMqdPx') center/cover no-repeat;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 1.5rem;
+            max-width: 900px;
+            font-weight: 600;
+        }
+
+        /* Container for cards */
+        .container {
+            max-width: 1000px;
+            margin: -40px auto 40px auto;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Card Styles */
+        .card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            flex: 1;
+            min-width: 300px;
+        }
+
+        /* Left Card Content */
+        .left-card h2 {
+            color: #1a56db;
+            font-size: 1.25rem;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .left-card p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #4b5563;
+            margin-bottom: 15px;
+        }
+
+        .left-card strong {
+            color: #111827;
+        }
+
+        /* Right Card Content */
+        .right-card {
+            text-align: center;
+        }
+
+        .right-card h2 {
+            color: #1a56db;
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+        }
+
+        .right-card .sub-title {
+            color: #6b7280;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+
+        /* Survey Box Inside Right Card */
+        .survey-box {
+            background-color: #f9fafb;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .survey-box h3 {
+            font-size: 1rem;
+            color: #1a56db;
+            margin-bottom: 8px;
+        }
+
+        .survey-box p {
+            font-size: 0.85rem;
+            color: #6b7280;
+            margin-bottom: 15px;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            background-color: #1d4ed8;
+            color: #ffffff;
+            padding: 10px 24px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 5px rgba(29, 78, 216, 0.3);
+        }
+
+        .btn:hover {
+            background-color: #1e40af;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.2rem;
+            }
+            .container {
+                margin-top: -20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <h1>Passenger Satisfaction Survey / Dodoso La Uridhishwaji Wa Wateja Mtwara Airport (October 2026)</h1>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container">
+
+        <!-- Left Card: Information -->
+        <section class="card left-card">
+            <h2>Passenger Satisfaction Survey / Dodoso La Uridhishwaji Wa Wateja Mtwara Airport (October 2026)</h2>
+            
+            <p><strong>Dear Passenger,</strong><br>
+            Your feedback is important to help us improve our services. Please take a few minutes to fill out this questionnaire.</p>
+            
+            <p><strong>Mpendwa Abiria,</strong><br>
+            Maoni yako yatatusaidia kutathimini utendaji wetu kwa ujumla na kubaini maeneo yanayohitaji maboresho. Tafadhali tumia dakika chache kujaza dodoso hili.</p>
+        </section>
+
+        <!-- Right Card: Form Choice Buttons -->
+        <section class="card right-card">
+            <h2>Take the Survey</h2>
+            <p class="sub-title">Choose your preferred language:</p>
+
+            <!-- English Survey Option -->
+            <div class="survey-box">
+                <h3>English Survey</h3>
+                <p>Complete the survey in English</p>
+                <!-- Weka Link ya Google Form ya Kingereza hapa chini -->
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScK8Tv35JoDgYFvJhjqeonysOtVcThpkQv01-EOPVpSPFJPag/viewform?usp=publish-editor" target="_blank" class="btn">Take Survey (English)</a>
+            </div>
+
+            <!-- Swahili Survey Option -->
+            <div class="survey-box">
+                <h3>Swahili Survey</h3>
+                <p>Complete the survey in Swahili</p>
+                <!-- Weka Link ya Google Form ya Kiswahili hapa chini -->
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFaxywAdGxGxWdojB2-jluiffSxLACNQ3EP_4dxCD1fvpcEg/viewform?usp=publish-editor" target="_blank" class="btn">Jaza Dodoso (Kiswahili)</a>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
